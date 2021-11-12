@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    animation: colors 10s infinite;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-div {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    height: 70%;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 45px;
+    text-align: center;
+}
+
+.box-title {
+    text-align: center;
+    padding: 1em;
+}
+
+.input {
+    border-radius: 5px;
+}
+
+.btn-calculate {
+    border-radius: 5px;
+    border: none;
+    background-color: #0096FF;
+    color: white;
+    float: right;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #29cdff;
+    }
+    50% {
+        background-color: #2994ff;
+    }
+    100% {
+        background-color: #29cdff;
+    }
+}

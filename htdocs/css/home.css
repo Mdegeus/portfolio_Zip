@@ -1,0 +1,29 @@
+body {
+    background-color: var(--background);
+}
+
+.navbar,
+.navbar code {
+    background-color: var(--navbar-color);
+    color: var(--navbar-text-color);
+}
+
+.project-btn {
+    background-color: var(--button-color1)
+}
+
+.professionProfile-btn {
+    background-color: var(--button-color2)
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.color1 {
+    color: var(--color1)
+}
+
+.color2 {
+    color: var(--color2);
+}

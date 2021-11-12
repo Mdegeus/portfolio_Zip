@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="../css/bke.css">
+</head>
+
+<body>
+  <header>
+    <h1>Tic Tac Toe</h1>
+    <span>ofwel boter kaas en eieren</span>
+  </header>
+  <grid class="addplayersFrame">
+    <input class="playerName" type="text" value="" placeholder="Player Name">
+    <button class="addPlayer" type="button">Add Player1</button>
+  </grid>
+  <h2 class="winnerLabel"></h2>
+  <main>
+    <p class="playerTurnLabel">Please at 2 players</p>
+    <div>
+      <p class="plr1Label">Player 1</p>
+      <p>Symbol: X</p>
+    </div>
+    <!-- 
+          Make a board (class .board) with fields (class .field)
+          Do not forget to add styling (grid layout)
+        -->
+    <grid class="board">
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+      <div class="field">
+
+      </div>
+
+    </grid>
+    <div>
+      <p class="plr2Label">player 2</p>
+      <p>Symbol: O</p>
+    </div>
+  </main>
+  <div></div>
+  <button class="reset-btn">reset</button>
+  <script type="module" src="../js/bke.js"></script>
+</body>
+
+</html>
